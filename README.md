@@ -1,0 +1,1 @@
+# Scripts de raspberry python
