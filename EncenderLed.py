@@ -8,5 +8,9 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(pin, GPIO.OUT)
 #Asignamos un valor HIGH al pin 7
 GPIO.output(pin, GPIO.HIGH)
+#Retraso
+GPIO.sleep(1)
 #Asignamos un valor LOW al pin 7
 GPIO.output(pin, GPIO.LOW)
+#Borramos otros programas
+GPIO.cleanup()
